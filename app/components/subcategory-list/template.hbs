@@ -1,3 +1,3 @@
 {{#each category.subcategories as |subcategory|}}
-  <h3>{{subcategory.name}}</h3>
+  <h3>{{#link-to 'subcategory' subcategory.id}}{{subcategory.name}}{{/link-to}}</h3>
 {{/each}}
