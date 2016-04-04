@@ -1,0 +1,47 @@
+{
+	"posts": [{
+		"title": "Foot Rub needed",
+		"description": "Interested in an reputable man or woman to rub my feet on occasion",
+		"author": "Fran",
+		"phone": 1234445555,
+		"email": "franlovescats69@gmail.com",
+		"createdDate": "1/2/3",
+		"price": null,
+		"compensation": 5,
+		"subcategory": "0"
+	}, {
+		"title": "Boat For Sale",
+		"description": "I love this old thing, but I'm coming up against some hard times, and a think it's time to paire down",
+		"author": "Jaun",
+		"phone": 1234443333,
+		"email": "juanonthewater@gmail.com",
+		"createdDate": "1/2/3",
+		"price": 4000,
+		"compensation": null,
+		"subcategory": "1"
+	}],
+	"subcategories": [{
+		"name": "Personal Favors",
+		"category": "0",
+		"posts": {
+			"0": true
+		}
+	}, {
+		"name": "Boats",
+		"category": "1",
+		"posts": {
+			"1": true
+		}
+	}],
+	"categories": [{
+		"name": "Personal",
+		"subcategories": {
+			"0": true
+		}
+	}, {
+		"name": "For Sale",
+		"subcategories": {
+			"1": true
+		}
+	}]
+}
